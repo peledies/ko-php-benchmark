@@ -1,0 +1,20 @@
+{
+    "name": "ko/php-benchmark",
+    "description": "A simple class for testing how long code takes to run",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Deac Karns",
+            "email": "peledies@gmail.com"
+        }
+    ],
+    "require": {},
+    "license": [
+       "MIT"
+    ],
+    "autoload": {
+        "psr-4": {
+          "KO\\Benchmark\\": "src"
+        }
+    }
+}
